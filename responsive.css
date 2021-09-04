@@ -1,0 +1,76 @@
+@media(max-width: 769px) {
+    
+    .about-section .skills.skills-item,
+    .about-section .about-info,
+    .about-section .about-img,
+    .home-section .home-text,
+    .home-section .home-img{
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+    .home-section .home-text{
+        order: 2;
+    }
+    .home-section .home-text{
+        text-align: center;
+    }
+    .home-section .full-screen{
+        padding: 100px 0;
+    }
+    .home-section .home-img .img-box{
+        margin-bottom: 40px;
+        max-width: 350px;
+    }
+    .effect-3{
+        margin-left: -60px;
+    }
+    .effect-4{
+        left: 10px;
+    }
+    .about-section .about-img{
+        padding: 30px;
+        align-items: center;
+        justify-content: center;
+    }
+}
+@media (max-widt:574px) {
+    .home-section .home-img .img-box{
+        max-width: 260px;
+    }
+    .home-section .home-text h2{
+        font-size: 40px;
+    }
+
+    
+}
+
+@media only screen and (max-width: 1200px) {
+    .promotion-content h3 {
+      background-color: rgba(0, 0, 0, 0.8);
+      border-radius: 5rem;
+      padding: 0.7rem 1.4rem;
+      font-size: 1.6rem;
+    }
+  }
+  
+  @media only screen and (max-width: 996px) {
+    .promotion-layout {
+      grid-template-columns: repeat(2, 1fr);
+    }
+  }
+  
+  @media only screen and (max-width: 768px) {
+    .promotion-layout {
+     grid-template-columns: 1fr;
+     max-width: 500px;
+     height: 100%;
+     width: 100%;
+    }
+  }
+  @media (max-width:991px) {
+      .service-section .service-item{
+          flex: 0 0 100%;
+          max-width: 100%;
+      }
+      
+  }
